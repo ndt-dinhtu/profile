@@ -230,5 +230,99 @@
 .about-container .about-inner .row .col .img_container img {
     width : 100%;
     height: 100%;
+}
 
+/* Tabs */
+
+/*mainskills*/
+
+.mainskills_container {
+    width  : 100%;
+    height : 100%;
+    padding: 10px 0;
+}
+
+.mainskills_container .skills_list_container {
+    width         : 100%;
+    height        : 100%;
+    display       : flex;
+    flex-direction: column;
+    gap           : 15px;
+
+}
+
+.mainskills_container .skills_list_container .skills_list {
+    list-style: none;
+}
+
+.mainskills_container .skills_list_container .skills_list .top_text {
+    font-weight: 900;
+    font-size  : 19px;
+}
+
+.mainskills_container .skills_list_container .skills_list .bottom_text {
+    font-size: 18px;
+    color    : var(--muted-color);
+}
+
+/*awards*/
+
+.awards_container {
+    width  : 100%;
+    height : 100%;
+    padding: 10px 0;
+}
+
+.awards_container .awards_list_container {
+    width         : 100%;
+    height        : 100%;
+    display       : flex;
+    flex-direction: column;
+    gap           : 15px;
+
+}
+
+.awards_container .awards_list_container .awards_list {
+    list-style: none;
+}
+
+.awards_container .awards_list_container .awards_list .top_text {
+    font-weight: 900;
+    font-size  : 19px;
+}
+
+.awards_container .awards_list_container .awards_list .bottom_text {
+    font-size: 18px;
+    color    : var(--muted-color);
+}
+
+/*Experience*/
+
+.experience_container {
+    width  : 100%;
+    height : 100%;
+    padding: 10px 0;
+}
+
+.experience_container .experience_list_container {
+    width         : 100%;
+    height        : 100%;
+    display       : flex;
+    flex-direction: column;
+    gap           : 15px;
+
+}
+
+.experience_container .experience_list_container .experience_list {
+    list-style: none;
+}
+
+.experience_container .experience_list_container .experience_list .top_text {
+    font-weight: 900;
+    font-size  : 19px;
+}
+
+.experience_container .experience_list_container .experience_list .bottom_text {
+    font-size: 18px;
+    color    : var(--muted-color);
 }

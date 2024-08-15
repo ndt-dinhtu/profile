@@ -6,11 +6,63 @@ export default function About() {
     const tabsArray = [
         {
             label: 'Main skills',
-            content: <div>hihi</div>
+            content: <div className='mainskills_container'>
+                <ul className="skills_list_container">
+                    <li className="skills_list">
+                        <div className="top_text">UX/UI</div>
+                        <div className="bottom_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, cum?</div>
+                    </li>
+                    <li className="skills_list">
+                        <div className="top_text">Web Design</div>
+                        <div className="bottom_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, cum?</div>
+                    </li>
+                    <li className="skills_list">
+                        <div className="top_text">Web Developer</div>
+                        <div className="bottom_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, cum?</div>
+                    </li>
+                    <li className="skills_list">
+                        <div className="top_text">Software Testing</div>
+                        <div className="bottom_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, cum?</div>
+                    </li>
+                </ul>
+
+            </div>
         },
         {
             label: 'Awards',
-            content: <div>a</div>
+            content: <div className='awards_container'>
+                <ul className="awards_list_container">
+                    <li className="awards_list">
+                        <div className="top_text"></div>
+                        <div className="bottom_text"></div>
+                    </li>
+                </ul>
+
+            </div>
+        },
+        {
+            label: 'Experience',
+            content: <div className='mainskills_container'>
+                <ul className="skills_list_container">
+                    <li className="skills_list">
+                        <div className="top_text">NodeJS</div>
+                        <div className="bottom_text"></div>
+                    </li>
+                    <li className="skills_list">
+                        <div className="top_text">Web Design</div>
+                        <div className="bottom_text"></div>
+                    </li>
+                    <li className="skills_list">
+                        <div className="top_text">Web Developer</div>
+                        <div className="bottom_text"></div>
+                    </li>
+                    <li className="skills_list">
+                        <div className="top_text">Software Testing</div>
+                        <div className="bottom_text"></div>
+                    </li>
+                </ul>
+
+            </div>
         }
     ]
     return (

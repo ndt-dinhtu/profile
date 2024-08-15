@@ -14,9 +14,10 @@ export default function Tabs({ tabs }) {
                         {tab.label}
                     </div>
                 ))}
-                <div className="tab-content">
-                    {tabs[activeTab].content}
-                </div>
+
+            </div>
+            <div className="tab-content">
+                {tabs[activeTab].content}
             </div>
         </div>
     )
