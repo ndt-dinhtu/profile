@@ -12,22 +12,22 @@ export default function Navbar() {
                 <div className="row">
                     <div className="col">
                         <div className="logo_container">
-                            Tu
+                            <h1>Tu <span className='logo-round'></span></h1>
                         </div>
                     </div>
                     <div className="col">
                         <ul className='menu-link-container'>
                             <li>
-                                <Link to={'/'}>Home</Link>
+                                <Link to={'/'} className='menu-item' >Home</Link>
                             </li>
                             <li>
-                                <Link to={'/'}>Protfolio</Link>
+                                <Link to={'/'} className='menu-item' >Protfolio</Link>
                             </li>
                             <li>
-                                <Link to={'/'}>About</Link>
+                                <Link to={'/'} className='menu-item'>About</Link>
                             </li>
                             <li>
-                                <Link to={'/'}>Contact</Link>
+                                <Link to={'/'} className='menu-item' >Contact</Link>
                             </li>
                         </ul>
                     </div>

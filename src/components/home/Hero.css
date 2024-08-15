@@ -1,0 +1,234 @@
+.hero-container {
+    width          : 100%;
+    height         : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.hero-container .hero-inner {
+    width          : 95%;
+    height         : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    padding        : 30px 0;
+    flex-direction : column;
+}
+
+.hero-container .hero-inner .top-container {
+    width          : 100%;
+    height         : 100%;
+    max-height     : 750px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.hero-container .hero-inner .top-container h1 {
+    font-size : clamp(1.2em, 3vw, 3.5em);
+    text-align: center;
+}
+
+.hero-container .hero-inner .top-container h1 .highlight {
+    color: var(--primary-color);
+}
+
+.hero-container .hero-inner .bottom-container {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    gap            : 20px;
+}
+
+.hero-container .hero-inner .bottom-container .col {
+    flex: 1;
+}
+
+.hero-container .hero-inner .bottom-container .col .text-container {
+    padding: 10px 5px;
+}
+
+.hero-container .hero-inner .bottom-container .col .counter_container {
+    padding: 10px 20px;
+}
+
+
+.hero-container .hero-inner .bottom-container .col .text-container p {
+    /* text-align: justify; */
+    font-size: 20px;
+}
+
+
+.hero-container .hero-inner .bottom-container .col .text-container p {
+    /* text-align: justify; */
+    font-size: 20px;
+}
+
+.hero-container .hero-inner .bottom-container .col .text-container h3 {
+    padding : 10px 0px;
+    position: relative;
+}
+
+.hero-container .hero-inner .bottom-container .col .text-container h3::after {
+    content   : "";
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    width     : 100%;
+    height    : 2px;
+    background: var(--secondary-color);
+}
+
+.hero-container .hero-inner .bottom-container .col .text-container h3::before {
+    content   : "";
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    width     : 50%;
+    height    : 2px;
+    background: var(--primary-color);
+    z-index   : 1;
+}
+
+
+.hero-container .hero-inner .bottom-container .col .text-container ul li {
+    list-style: none;
+    padding   : 10px 0;
+    font-size : 20px;
+}
+
+.hero-container .hero-inner .bottom-container .col .hero_img_section {
+    width : 100%;
+    height: 100%;
+}
+
+.hero-container .hero-inner .bottom-container .col:nth-child(2) {
+    flex: 2;
+}
+
+.hero-container .hero-inner .bottom-container .col .hero_img_section .img_container {
+    width : 100%;
+    height: 100%;
+}
+
+.hero-container .hero-inner .bottom-container .col .hero_img_section .img_container img {
+    width        : 100%;
+    height       : 100%;
+    object-fit   : cover;
+    border-radius: 400px;
+
+}
+
+.hero-container .hero-inner .bottom-container .col .counter_container .counter_item {
+    padding   : 50px 0;
+    text-align: right;
+}
+
+.hero-container .hero-inner .bottom-container .col .counter_container .counter_item h3 {
+    padding  : 10px 0px;
+    position : relative;
+    font-size: 20px;
+
+}
+
+.hero-container .hero-inner .bottom-container .col .counter_container .counter_item h3::after {
+    content   : "";
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    width     : 100%;
+    height    : 2px;
+    background: var(--secondary-color);
+}
+
+.hero-container .hero-inner .bottom-container .col .counter_container .counter_item h3::before {
+    content   : "";
+    position  : absolute;
+    bottom    : 0;
+    right     : 0;
+    width     : 50%;
+    height    : 2px;
+    background: var(--primary-color);
+    z-index   : 1;
+}
+
+/* about */
+
+.about-container {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 100%;
+    height         : 100%;
+    padding        : 25px 0;
+}
+
+.about-container .about-inner {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 95%;
+    height         : 100%;
+}
+
+.about-container .about-inner .row {
+    display        : flex;
+    align-items    : start;
+    justify-content: center;
+    width          : 100%;
+    height         : 100%;
+    gap            : 40px;
+}
+
+.about-container .about-inner .row .col {
+    flex: 1;
+}
+
+.about-container .about-inner .row .col .section_title {
+    position: relative;
+    padding : 20px 0;
+    width   : fit-content;
+}
+
+
+.about-container .about-inner .row .col .section_title::after {
+    content   : "";
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    width     : 100%;
+    height    : 2px;
+    background: var(--secondary-color);
+}
+
+.about-container .about-inner .row .col .section_title::before {
+    content   : "";
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    width     : 50%;
+    height    : 2px;
+    background: var(--primary-color);
+    z-index   : 1;
+}
+
+.about-container .about-inner .row .col .about_content {
+    padding   : 20px 0;
+    text-align: justify;
+}
+
+.about-container .about-inner .row .col .img_container {
+    width        : 100%;
+    height       : 100%;
+    max-height   : 700px;
+    object-fit   : cover;
+    overflow     : hidden;
+    border-radius: 30px;
+}
+
+.about-container .about-inner .row .col .img_container img {
+    width : 100%;
+    height: 100%;
+
+}
