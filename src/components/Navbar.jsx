@@ -33,8 +33,8 @@ export default function Navbar() {
                     </div>
                     <div className="col">
                         <ul className='social-media-container'>
-                            <li><a href=""><FaFacebook /></a></li>
-                            <li><a href=""><FaInstagram /> </a></li>
+                            <li><a href="https://www.facebook.com/tuminh.vuong.50/"><FaFacebook /></a></li>
+                            <li><a href="https://www.instagram.com/dinhtuvtc0376330060/"><FaInstagram /> </a></li>
                             <li><a href=""><FaTwitter /></a></li>
                             <li><a href=""><FaDribbble /></a></li>
                         </ul>

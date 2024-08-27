@@ -3,7 +3,9 @@ import './Hero.css'
 import anh1 from '../../assets/anh1.jpg'
 import CountUp from 'react-countup'
 import { useInView } from 'react-intersection-observer';
-
+import { FaGithub, FaLocationDot } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
+import { FaPhoneAlt } from "react-icons/fa";
 export default function Hero() {
     const { ref: clientRef, inView: clientsInView } = useInView({
         triggerOnce: true,
@@ -33,13 +35,16 @@ export default function Hero() {
                             <h3>Contact</h3>
                             <ul>
                                 <li>
-                                    Nguyen Kiem, Go Vap, HCM
+                                    <FaLocationDot /> Nguyen Kiem, Go Vap, HCM
                                 </li>
                                 <li>
-                                    ndt.290303060703@gmail.com
+                                    <SiGmail />  ndt.290303060703@gmail.com
                                 </li>
                                 <li>
-                                    +84 376 330 060
+                                    <FaPhoneAlt />  +84 376 330 060
+                                </li>
+                                <li>
+                                    <FaGithub /> <a href="https://github.com/ndt-dinhtu/">https://github.com/ndt-dinhtu/</a>
                                 </li>
                             </ul>
                         </div>
