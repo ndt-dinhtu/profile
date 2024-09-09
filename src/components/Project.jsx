@@ -36,7 +36,7 @@ export default function Project() {
         <div className="projects-container">
             <div className="projects-inner">
                 <div className="title_container">
-                    <h1>My Project</h1>
+                    <h1 className='section_title'>My Project</h1>
                 </div>
                 <div className="projects-content-container">
                     {projects.map((project, index) => (

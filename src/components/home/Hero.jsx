@@ -26,7 +26,7 @@ export default function Hero() {
                     <h1>Hello, I am Tu, A <span className='highlight'>Software Web Developer</span> </h1>
                 </div>
                 <div className="bottom-container">
-                    <div className="col">
+                    <div className="col">       
                         <div className="text-container">
                             <h3>Lorem, ipsum dolor.</h3>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur assumenda voluptatum ipsa blanditiis vitae nam ex laboriosam, ratione ipsum recusandae.</p>

@@ -1,0 +1,99 @@
+.testimonials_container {
+    width          : 100%;
+    height         : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    padding        : 20px 0;
+
+}
+
+.testimonials_container .testimonials_inner {
+    width          : 95%;
+    height         : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    flex-direction : column;
+
+}
+
+.testimonials_container .testimonials_inner .testimonial_content_container {
+    padding: 10px 0;
+
+}
+
+.testimonials_container .testimonials_inner .testimonial_content_container .testimonials_tabs {
+    width : 100%;
+    height: 100%;
+
+}
+
+.testimonials_container .testimonials_inner .testimonial_content_container .testimonials_tabs .testimonials_tabs-headers {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    gap            : 20px;
+
+}
+
+.testimonials_container .testimonials_inner .testimonial_content_container .testimonials_tabs .testimonials_tabs-headers .img_container {
+    width        : 100px;
+    height       : 100px;
+    overflow     : hidden;
+    border-radius: 10px;
+    cursor       : pointer;
+}
+
+
+.testimonials_container .testimonials_inner .testimonial_content_container .testimonials_tabs .testimonials_tabs-headers img {
+    width     : 100%;
+    height    : 100%;
+    transition: all 0.5s linear;
+    object-fit: cover;
+}
+
+.testimonials_container .testimonials_inner .testimonial_content_container .testimonials_tabs .testimonials_tabs-headers .img_container:hover img {
+    scale: 1.6;
+}
+
+.testimonials_tab-content {
+    padding   : 40px 0;
+    text-align: center;
+}
+
+
+.testimonials_tab-content p{
+   font-size: 15px;
+   color: var(--muted-color);
+   text-align: end;
+   font-style: italic;
+
+}
+
+.testimonials_inner .section_title {
+    padding : 10px 0;
+    position: relative;
+    width   : fit-content;
+}
+
+.testimonials_inner .section_title::after {
+    content   : "";
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    width     : 100%;
+    height    : 2px;
+    background: var(--secondary-color);
+}
+
+.testimonials_inner .section_title::before {
+    content   : "";
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    width     : 50%;
+    height    : 2px;
+    background: var(--primary-color);
+    z-index   : 1;
+}
