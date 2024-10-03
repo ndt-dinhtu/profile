@@ -76,6 +76,7 @@ export default function About() {
                     </div>
                     <div className="col">
                         <h1 className='section_title'>About me</h1>
+                        <p className="about_content">Currently, I am a final-year student</p>
                         <p className='about_content'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat necessitatibus delectus commodi ipsa, odio sit recusandae dolore perspiciatis minima! Similique, necessitatibus nostrum. Id repudiandae architecto soluta quisquam alias eligendi explicabo.
                             Cupiditate omnis nisi voluptatibus autem doloremque, ad ipsa voluptatem! Labore iure culpa eligendi quae amet magni, voluptas voluptates excepturi porro dolores eos aliquid tenetur, sapiente quasi velit enim! Saepe, magnam.</p>
                         <p className='about_content'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat necessitatibus delectus commodi ipsa, odio sit recusandae dolore perspiciatis minima! Similique, necessitatibus nostrum. Id repudiandae architecto soluta quisquam alias eligendi explicabo.
