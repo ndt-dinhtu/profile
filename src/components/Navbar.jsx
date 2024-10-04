@@ -23,7 +23,7 @@ export default function Navbar() {
                                 <Link to={'/protfolio'} className='menu-item' >Protfolio</Link>
                             </li>
                             <li>
-                                <Link to={'/'} className='menu-item'>About</Link>
+                                <Link to={'/about'} className='menu-item'>About</Link>
                             </li>
                             <li>
                                 <Link to={'/'} className='menu-item' >Contact</Link>
