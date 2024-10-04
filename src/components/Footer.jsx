@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className='footer-container'>
             <div className="footer_inner">
-                <div className="row">
+                <div className="row footer_row">
                     <div className="col">
                         <div className="footer_logo_container">
                             <h1>Tu <span className='logo-round'></span> </h1>
@@ -31,12 +31,23 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col">
-                    <ul className='social-media-container'>
+                        <ul className='social-media-container'>
                             <li><a href="https://www.facebook.com/tuminh.vuong.50/"><FaFacebook /></a></li>
                             <li><a href="https://www.instagram.com/dinhtuvtc0376330060/"><FaInstagram /> </a></li>
                             <li><a href="https://www.facebook.com/tuminh.vuong.50/"><FaTwitter /></a></li>
                             <li><a href="https://www.facebook.com/tuminh.vuong.50/"><FaDribbble /></a></li>
                         </ul>
+                    </div>
+                </div>
+               
+                <div className="copyright_container">
+                    <div className="row">
+                        <div className="col">
+                            <h4>Copyright Tu. All Rights Reserved</h4>
+                        </div>
+                        <div className="col">
+                            <h4>Design and developer by click to gain </h4>
+                        </div>
                     </div>
                 </div>
             </div>

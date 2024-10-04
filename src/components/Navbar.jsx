@@ -1,7 +1,6 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import { IconName } from "react-icons/ai";
 import { FaDribbble, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 
@@ -21,7 +20,7 @@ export default function Navbar() {
                                 <Link to={'/'} className='menu-item' >Home</Link>
                             </li>
                             <li>
-                                <Link to={'/'} className='menu-item' >Protfolio</Link>
+                                <Link to={'/protfolio'} className='menu-item' >Protfolio</Link>
                             </li>
                             <li>
                                 <Link to={'/'} className='menu-item'>About</Link>
