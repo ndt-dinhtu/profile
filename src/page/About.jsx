@@ -4,6 +4,7 @@ import anh2 from "../assets/anh2.jpg"
 import "./About.css"
 import CountUp from 'react-countup'
 import { useInView } from 'react-intersection-observer';
+import SkillsCard from '../components/protfolio/SkillsCard'
 const About = () => {
     const { ref: clientRef, inView: clientsInView } = useInView({
         triggerOnce: true,
@@ -80,6 +81,9 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="about_skills_section">
+                    <SkillsCard />
                 </div>
             </div>
         </div>
