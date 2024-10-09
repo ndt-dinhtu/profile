@@ -5,6 +5,9 @@ import "./About.css"
 import CountUp from 'react-countup'
 import { useInView } from 'react-intersection-observer';
 import SkillsCard from '../components/protfolio/SkillsCard'
+import Awards from '../components/protfolio/Awards'
+import Testimonials from '../components/Testimonials'
+import Contact from '../components/Contact'
 const About = () => {
     const { ref: clientRef, inView: clientsInView } = useInView({
         triggerOnce: true,
@@ -84,6 +87,13 @@ const About = () => {
                 </div>
                 <div className="about_skills_section">
                     <SkillsCard />
+                </div>
+                <div className="about_awards_section">
+                    <Awards />
+                </div>
+                <Testimonials />
+                <div className="contact_section">
+                    <Contact />
                 </div>
             </div>
         </div>
