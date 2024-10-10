@@ -12,26 +12,26 @@ export default function Project() {
         {
             image: anh3,
             title: 'Project 1',
-            content: 'lorem',
-            url: '',
+            content: 'Backend for building a clothing e-commerce website for a fashion shop',
+            url: 'https://github.com/ndt-dinhtu/backen_springboot',
         },
         {
             image: anh4,
             title: 'Project 2',
-            content: 'lorem',
-            url: '',
+            content: 'Frontend for building a clothing e-commerce website for a fashion shop',
+            url: 'https://github.com/ndt-dinhtu/front_end_springboot',
         },
         {
             image: anh5,
             title: 'Project 3',
-            content: 'lorem',
-            url: '',
+            content: 'Templace basic',
+            url: 'https://web-pioted.vercel.app/',
         },
         {
             image: anh6,
             title: 'Project 4',
-            content: 'lorem',
-            url: '',
+            content: 'Frontend website  ',
+            url: 'https://github.com/ndt-dinhtu/webfrontend',
         },
     ]
     return (

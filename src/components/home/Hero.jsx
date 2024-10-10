@@ -26,10 +26,17 @@ export default function Hero() {
                     <h1>Hello, I am Tu, A <span className='highlight'>Software Web Developer</span> </h1>
                 </div>
                 <div className="bottom-container">
-                    <div className="col">       
+                    <div className="col">
                         <div className="text-container">
-                            <h3>Lorem, ipsum dolor.</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur assumenda voluptatum ipsa blanditiis vitae nam ex laboriosam, ratione ipsum recusandae.</p>
+                            <h3>A little about myself.</h3>
+                            <p>Hello everyone, I am Nguyen Dinh Tu.
+                                I am currently a final-year student at
+                                GiaDinh University, majoring in Software
+                                Engineering. With a passion for programming,
+                                I continuously strive to learn and improve
+                                myself to create products and websites that
+                                meet market demands. My dream is to become
+                                a professional web developer.</p>
                         </div>
                         <div className="text-container">
                             <h3>Contact</h3>
@@ -75,19 +82,19 @@ export default function Hero() {
                             <div className="counter_item" >
                                 <h3>Experience</h3>
                                 <h1 ref={experienceRef}>
-                                    {experienceInView && <CountUp start={0} end={5} />}+
+                                    {experienceInView && <CountUp start={0} end={2} />}+
                                 </h1>
                             </div>
                             <div className="counter_item" >
-                                <h3>Experience</h3>
+                                <h3>Task</h3>
                                 <h1 ref={clientRef}>
-                                    {clientsInView && <CountUp start={0} end={10} />}+
+                                    {clientsInView && <CountUp start={0} end={50} />}+
                                 </h1>
                             </div>
                             <div className="counter_item">
                                 <h3>Products</h3>
                                 <h1 ref={projectsRef}>
-                                    {projectsInView && <CountUp start={0} end={30} />}+
+                                    {projectsInView && <CountUp start={0} end={10} />}+
                                 </h1>
                             </div>
                         </div>

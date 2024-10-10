@@ -39,11 +39,11 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-               
+
                 <div className="copyright_container">
                     <div className="row">
                         <div className="col">
-                            <h4>Copyright Tu. All Rights Reserved</h4>
+                            <h4>&#169;Copyright Tu. All Rights Reserved</h4>
                         </div>
                         <div className="col">
                             <h4>Design and developer by click to gain </h4>
