@@ -36,7 +36,7 @@ const Contact = () => {
                     </div>
                     <div className="col">
                         <div className="map-container">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.841133765212!2d106.67820697488317!3d10.823466989328127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529519e1684c5%3A0x37d193f79dd9b31a!2zOTA0IMSQLiBOZ3V54buFbiBLaeG7h20sIFBoxrDhu51uZyAzLCBHw7IgVuG6pXAsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1725907308942!5m2!1sen!2s" className='map' allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title='tọa độ'/>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.841133765212!2d106.67820697488317!3d10.823466989328127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529519e1684c5%3A0x37d193f79dd9b31a!2zOTA0IMSQLiBOZ3V54buFbiBLaeG7h20sIFBoxrDhu51uZyAzLCBHw7IgVuG6pXAsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1725907308942!5m2!1sen!2s" className='map' allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title='tọa độ' />
                         </div>
                     </div>
                 </div>

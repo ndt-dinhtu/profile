@@ -26,7 +26,7 @@ export default function Navbar() {
                                 <Link to={'/about'} className='menu-item'>About</Link>
                             </li>
                             <li>
-                                <Link to={'/'} className='menu-item' >Contact</Link>
+                                <Link to={'/contact'} className='menu-item' >Contact</Link>
                             </li>
                         </ul>
                     </div>
